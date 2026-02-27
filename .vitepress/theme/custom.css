@@ -1,0 +1,32 @@
+/* 阅读进度条层级确保在最上面 */
+.reading-progress {
+  z-index: 999;
+}
+
+/* medium-zoom 覆盖层 */
+.medium-zoom-overlay {
+  z-index: 100;
+}
+.medium-zoom-image--opened {
+  z-index: 101;
+}
+
+/* 粒子背景透明度 */
+#tsparticles {
+  opacity: 0.6;
+}
+
+/* APlayer 三态效果 */
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+  left: -66px !important;
+  transition: left 0.3s ease;
+}
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+  left: 0 !important;
+}
+
+/* 首页打字机光标 */
+.typed-cursor {
+  color: var(--vp-c-brand-1);
+  font-weight: 300;
+}
